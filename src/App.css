@@ -1,0 +1,47 @@
+.img {
+  height: 50px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.cartImage {
+  background-color: aliceblue;
+  padding: 10px;
+}
+
+.item-container {
+  padding: 10px;
+  display: flex;
+  margin: 5%;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 20%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.item {
+  height: 80px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.count {
+  position: absolute;
+  right: 34px;
+  top: 5px;
+  background-color: lightgray;
+  padding: 2px;
+  height: 17px;
+  width: 15px;
+  text-align: center;
+  border-radius: 3px;
+}
