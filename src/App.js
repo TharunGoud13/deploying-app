@@ -1,10 +1,11 @@
-import HomeComponent from "./containers/HomeComponent";
 import "./App.css";
+import Counter from "./Counter";
 
 const App = () => {
   return (
     <div>
-      <HomeComponent />
+      Counter Application
+      <Counter />
     </div>
   );
 };
